@@ -3,13 +3,14 @@ using namespace std;
 
 int main()
 {
-	float a;
-	float b;
+	int FirstNumber = 0;
+	int SecondNumber = 0;
 
-	cin >> a >> b;
+	cin >> FirstNumber;
+	cin >> SecondNumber;
 
-	cout << "A + B = " << a + b << endl;
-	cout << "A - B = " << a - b << endl;
-	cout << "A * B = " << a * b << endl;
-	cout << "A / B = " << a / b << endl;
+	cout << "A + B = " << FirstNumber + SecondNumber << endl;
+	cout << "A - B = " << FirstNumber - SecondNumber << endl;
+	cout << "A * B = " << FirstNumber * SecondNumber << endl;
+	cout << "A / B = " << FirstNumber / SecondNumber << endl;
 }
