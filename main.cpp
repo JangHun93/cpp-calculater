@@ -3,14 +3,14 @@ using namespace std;
 
 int main()
 {
-	int FirstNumber = 0;
-	int SecondNumber = 0;
+	int FirstInputNum = 0;
+	int SecondInputNum = 0;
 
-	cin >> FirstNumber;
-	cin >> SecondNumber;
+	cin >> FirstInputNum;
+	cin >> SecondInputNum;
 
-	cout << "A + B = " << FirstNumber + SecondNumber << endl;
-	cout << "A - B = " << FirstNumber - SecondNumber << endl;
-	cout << "A * B = " << FirstNumber * SecondNumber << endl;
-	cout << "A / B = " << FirstNumber / SecondNumber << endl;
+	cout << FirstInputNum << " + " << SecondInputNum <<  " = " << FirstInputNum + SecondInputNum << endl;
+	cout << FirstInputNum << " - " << SecondInputNum << " = " << FirstInputNum - SecondInputNum << endl;
+	cout << FirstInputNum << " * " << SecondInputNum << " = " << FirstInputNum * SecondInputNum << endl;
+	cout << FirstInputNum << " / " << SecondInputNum << " = " << FirstInputNum/ SecondInputNum << endl;
 }
